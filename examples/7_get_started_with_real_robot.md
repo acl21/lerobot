@@ -119,8 +119,8 @@ To assign indices to the motors, run this code in an interactive Python session.
 ```python
 from lerobot.common.robot_devices.motors.dynamixel import DynamixelMotorsBus
 
-leader_port = "/dev/tty.usbmodem575E0031751"
-follower_port = "/dev/tty.usbmodem575E0032081"
+leader_port = "/dev/tty.usbmodem58760432611"
+follower_port = "/dev/tty.usbmodem58760432401"
 
 leader_arm = DynamixelMotorsBus(
     port=leader_port,
